@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/BankAccount.dir/bankAcount.cpp.o -o BankAccount 

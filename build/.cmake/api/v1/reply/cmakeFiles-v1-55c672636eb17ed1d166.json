@@ -10,15 +10,6 @@
 			"path" : "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake"
 		},
 		{
-			"isExternal" : true,
-			"path" : "/home/francob/dev/vcpkg/scripts/buildsystems/vcpkg.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.28/Modules/CMakeDependentOption.cmake"
-		},
-		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in"
@@ -26,15 +17,6 @@
 		{
 			"isGenerated" : true,
 			"path" : "build/CMakeFiles/3.28.3/CMakeSystem.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "/home/francob/dev/vcpkg/scripts/buildsystems/vcpkg.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/share/cmake-3.28/Modules/CMakeDependentOption.cmake"
 		},
 		{
 			"isCMake" : true,

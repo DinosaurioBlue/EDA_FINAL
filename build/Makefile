@@ -129,6 +129,43 @@ final/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/build
 .PHONY : final/fast
 
+#=============================================================================
+# Target rules for targets named BankAccount
+
+# Build rule for target.
+BankAccount: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BankAccount
+.PHONY : BankAccount
+
+# fast build rule for target.
+BankAccount/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BankAccount.dir/build.make CMakeFiles/BankAccount.dir/build
+.PHONY : BankAccount/fast
+
+bankAcount.o: bankAcount.cpp.o
+.PHONY : bankAcount.o
+
+# target to build an object file
+bankAcount.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BankAccount.dir/build.make CMakeFiles/BankAccount.dir/bankAcount.cpp.o
+.PHONY : bankAcount.cpp.o
+
+bankAcount.i: bankAcount.cpp.i
+.PHONY : bankAcount.i
+
+# target to preprocess a source file
+bankAcount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BankAccount.dir/build.make CMakeFiles/BankAccount.dir/bankAcount.cpp.i
+.PHONY : bankAcount.cpp.i
+
+bankAcount.s: bankAcount.cpp.s
+.PHONY : bankAcount.s
+
+# target to generate assembly for a file
+bankAcount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BankAccount.dir/build.make CMakeFiles/BankAccount.dir/bankAcount.cpp.s
+.PHONY : bankAcount.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -161,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... BankAccount"
 	@echo "... final"
+	@echo "... bankAcount.o"
+	@echo "... bankAcount.i"
+	@echo "... bankAcount.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

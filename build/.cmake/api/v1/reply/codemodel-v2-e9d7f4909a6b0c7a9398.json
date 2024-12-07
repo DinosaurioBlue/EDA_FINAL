@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "final",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "BankAccount::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BankAccount-Debug-0e672b0743aaf49d560d.json",
+					"name" : "BankAccount",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "final::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-final-Debug-4477b54aea4a9f392649.json",
+					"jsonFile" : "target-final-Debug-c568286d16334c4ef198.json",
 					"name" : "final",
 					"projectIndex" : 0
 				}

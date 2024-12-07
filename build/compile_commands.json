@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/francob/Desktop/EDA_FINAL/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/final.dir/main.cpp.o -c /home/francob/Desktop/EDA_FINAL/main.cpp",
+  "file": "/home/francob/Desktop/EDA_FINAL/main.cpp",
+  "output": "CMakeFiles/final.dir/main.cpp.o"
+}
+]
